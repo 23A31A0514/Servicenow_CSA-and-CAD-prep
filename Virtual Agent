@@ -1,0 +1,21 @@
+# Virtual Agent (VA)
+
+Virtual Agent is a conversational interface in ServiceNow that helps users perform tasks through chat.
+
+## Features
+- 24/7 self-service support
+- Integration with Knowledge Base
+- Service Catalog support
+- Available on web and mobile
+- Integrates with Slack and Microsoft Teams
+
+## Benefits
+- Reduces agent workload
+- Faster issue resolution
+- Improves user experience
+
+## Components
+- Topics
+- Topic Blocks
+- Conversations
+- NLU (Natural Language Understanding)
