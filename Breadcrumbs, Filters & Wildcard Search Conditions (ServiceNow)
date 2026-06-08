@@ -1,0 +1,72 @@
+Breadcrumbs, Filters & Wildcard Search Conditions (ServiceNow)
+
+🔹 Breadcrumbs
+
+Breadcrumbs appear at the top of a list and show the conditions currently applied to filter records.
+
+Features
+Displays active filter conditions.
+Helps users understand how records are being filtered.
+Conditions can be removed individually by clicking the breadcrumb.
+Entire filter can be removed using Run or Remove All Conditions.
+Benefits
+Easy navigation through filtered records.
+Quick modification of search criteria.
+Improves user experience while working with large datasets.
+Example
+Active = True > Priority = 1
+
+Each condition appears as a breadcrumb.
+
+🔹 Filters
+
+Filters are used to display only records that meet specific criteria.
+
+Features
+Filter records based on field values.
+Supports multiple conditions.
+Can be saved and reused.
+Available in list views and reports.
+Common Filter Operators
+is
+is not
+contains
+starts with
+ends with
+greater than
+less than
+Example
+State is Open
+AND
+Priority is High
+Benefits
+Faster data retrieval.
+Better record organization.
+Simplifies reporting and analysis.
+
+🔹 Wildcard Search Conditions
+
+Wildcards allow users to search for partial values instead of exact matches.
+Common Wildcards
+% (Multiple Characters)
+Represents zero or more characters.
+
+Example:
+inc%
+Returns:
+INC0010001
+INC0010002
+INC0001234
+* (Contains Search)
+Used in list searches to find records containing specific text.
+Example:
+*network*
+Returns records containing the word "network".
+
+🔹 Search Conditions Examples
+Condition	Result
+starts with "INC"	Records beginning with INC
+contains "email"	Records containing email
+ends with ".com"	Records ending with .com
+Active = True	Only active records
+Priority = 1	High-priority records
