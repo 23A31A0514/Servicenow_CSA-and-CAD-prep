@@ -1,0 +1,40 @@
+What is a Context Menu?
+
+A Context Menu is a menu that appears when a user right-clicks on a record, list column header, field label, or form element in ServiceNow. It provides quick access to commonly used actions and options.
+
+🔹 Features
+Accessed using right-click.
+Provides shortcuts for frequently used actions.
+Available in lists, forms, fields, and column headers.
+Changes depending on the selected item and user permissions.
+🔹 Common Context Menu Options
+For List Records
+Open Record
+Edit Record
+Copy Sys ID
+Export Data
+Show Matching
+Filter Out
+For Column Headers
+Sort Ascending
+Sort Descending
+Group By
+Configure List Layout
+Filter Records
+For Form Fields
+Personalize Form
+Show Dictionary
+Configure Dictionary
+View Audit History
+🔹 Benefits
+Faster navigation and record management.
+Reduces the number of clicks needed to perform actions.
+Improves productivity for administrators and developers.
+Provides quick access to configuration options.
+🔹 Example Uses
+
+✅ Right-click a Priority column → Sort records by priority.
+
+✅ Right-click a record → Open, edit, or export the record.
+
+✅ Right-click a field label → View dictionary details or configure the field.
