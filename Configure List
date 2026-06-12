@@ -1,0 +1,55 @@
+Configure List
+
+Configure List allows users to customize which columns appear in a list view and how records are displayed.
+
+Features
+Add or remove columns
+Rearrange column order
+Change list layout
+Save personalized views
+Benefits
+Displays only required information
+Improves productivity
+Makes record management easier
+Example
+
+Right-click a list header → Configure → List Layout
+
+🔹 Personalize List
+
+Personalize List allows individual users to customize their own list view without affecting other users.
+
+Features
+Select visible columns
+Hide unnecessary fields
+Create personalized layouts
+User-specific customization
+Benefits
+Better user experience
+Faster navigation
+Cleaner interface
+Example
+
+Open a list → Click Settings (Gear Icon) → Personalize List Columns
+
+List Calculator
+
+List Calculator performs calculations directly on numeric columns in list views.
+
+Features
+Calculates totals automatically
+Supports aggregation functions
+Works on selected records
+Supported Calculations
+Count
+Sum
+Average
+Maximum
+Minimum
+Benefits
+Quick data analysis
+No need for external tools
+Improves reporting efficiency
+Example
+
+Right-click numeric column → Show → Aggregate → Sum
