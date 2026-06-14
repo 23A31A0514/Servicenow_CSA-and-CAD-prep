@@ -1,0 +1,43 @@
+🔹 Configure Form
+
+Configure Form allows administrators or users with permissions to modify the structure and layout of a form.
+
+Features
+Add or remove fields
+Rearrange field positions
+Create sections
+Modify form layout
+Control field visibility
+Benefits
+Improves form organization
+Displays only relevant information
+Enhances user efficiency
+Supports customization
+Example
+
+Right-click form header → Configure → Form Layout
+
+🔹 Personalize Form
+
+Personalize Form allows individual users to customize how a form appears only for themselves without affecting others.
+
+Features
+Show or hide fields
+Rearrange visible fields
+User-specific customization
+Changes apply only to personal view
+Benefits
+Cleaner interface
+Faster access to important fields
+Better user experience
+No impact on global configuration
+Example
+
+Open a form → Click Settings (Gear Icon) → Personalize → Form
+
+🔹 Difference Between Configure Form & Personalize Form
+Configure Form	Personalize Form
+Changes form layout	Changes personal view
+Can affect all users	Affects only current user
+Requires configuration permissions	User-level customization
+Add/remove form fields	Show/hide fields
