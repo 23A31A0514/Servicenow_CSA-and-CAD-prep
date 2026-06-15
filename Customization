@@ -1,0 +1,35 @@
+🔹 What is Customization?
+
+Customization in ServiceNow means modifying the platform’s existing features, forms, workflows, UI, or functionality to meet specific business requirements.
+
+🔹 Features
+Modify forms and fields
+Create custom applications
+Configure workflows and flows
+Customize UI and portals
+Add business rules and scripts
+🔹 Types of Customization
+1. Form Customization
+Add, remove, or rearrange fields
+Modify sections and layouts
+2. UI Customization
+Personalize pages and user interface
+Configure Workspace and UI Builder
+3. Workflow Customization
+Create automated processes using Flow Designer
+4. Scripting Customization
+Use Client Scripts, Business Rules, Script Includes
+5. Application Customization
+Build applications using App Engine Studio
+🔹 Benefits
+Aligns platform with business needs
+Improves efficiency and productivity
+Enhances user experience
+Enables process automation
+🔹 Example
+
+Customize the Incident Form by:
+
+Adding a new field → Issue Category
+Creating a flow for auto-assignment
+Showing fields based on conditions
