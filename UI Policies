@@ -1,0 +1,55 @@
+UI Policies (ServiceNow)
+🔹 What are UI Policies?
+
+UI Policies in ServiceNow are used to dynamically control form behavior without writing scripts. They help manage how fields appear and behave based on conditions.
+
+🔹 Features
+Show or hide fields
+Make fields mandatory
+Set fields as read-only
+Execute changes dynamically
+Works without client-side scripting
+🔹 UI Policy Actions
+
+UI Policy Actions define what happens to fields when conditions are met.
+
+Common Actions
+Visible → Show or hide field
+Mandatory → Make field required
+Read Only → Prevent editing
+🔹 Components
+1. UI Policy
+
+Defines the condition and when it should run.
+
+2. UI Policy Action
+
+Defines which fields are affected and what action is applied.
+
+🔹 Example
+
+Scenario:
+If State = Closed
+
+Then:
+
+Close Notes → Editable
+All other fields → Read Only
+
+Condition:
+
+State = Closed
+
+Actions:
+
+Short Description → Read Only = True
+Priority → Read Only = True
+Close Notes → Read Only = False
+🔹 Benefits
+Reduces scripting effort
+Improves user experience
+Ensures data consistency
+Easy to configure and maintain
+🔹 Types
+Form UI Policy
+Catalog UI Policy
