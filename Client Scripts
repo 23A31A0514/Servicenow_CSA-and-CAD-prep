@@ -1,0 +1,77 @@
+Client Scripts (ServiceNow)
+🔹 What are Client Scripts?
+
+Client Scripts are scripts that run on the client side (browser) to control form behavior and improve user interaction without reloading the page.
+
+🔹 Features
+Execute in the user's browser
+Validate user input
+Modify field behavior dynamically
+Improve form responsiveness
+Reduce unnecessary server calls
+🔹 Types of Client Scripts
+1. onLoad()
+
+Runs when the form loads.
+
+Use Cases:
+
+Set default values
+Hide fields initially
+Display messages
+
+Example:
+Show a welcome message when the form opens.
+
+2. onChange()
+
+Runs when a field value changes.
+
+Use Cases:
+
+Validate field input
+Auto-populate fields
+Show/hide fields dynamically
+
+Example:
+If Priority = High, display additional fields.
+
+3. onSubmit()
+
+Runs when the user submits the form.
+
+Use Cases:
+
+Validate mandatory fields
+Prevent incorrect submission
+
+Example:
+Block form submission if required data is missing.
+
+4. onCellEdit()
+
+Runs when editing fields directly in a list.
+
+Use Cases:
+
+Validate list updates
+Control inline editing
+🔹 Common Objects Used
+g_form → Manipulates form fields
+g_user → Access current user details
+g_scratchpad → Pass server data to client
+🔹 Example
+
+Scenario:
+If State = Closed, make Close Notes mandatory.
+
+function onChange(control, oldValue, newValue, isLoading) {
+if(newValue == 'Closed'){
+g_form.setMandatory('close_notes', true);
+}
+}
+🔹 Benefits
+Better user experience
+Faster validation
+Reduces server processing
+Dynamic form behavior
