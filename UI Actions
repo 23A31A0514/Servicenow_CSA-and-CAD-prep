@@ -1,0 +1,71 @@
+UI Actions (ServiceNow)
+🔹 What are UI Actions?
+
+UI Actions in ServiceNow are used to create interactive buttons, links, and context menu options that allow users to perform actions directly from forms or lists.
+
+They combine UI elements + server/client-side logic to execute operations.
+
+🔹 Features
+Create custom buttons and links
+Execute scripts on click
+Perform server-side or client-side actions
+Available on forms and lists
+Improves user productivity
+🔹 Types of UI Actions
+1. Form Button
+
+Displays as a clickable button on a form.
+
+Example:
+Submit, Resolve, Close Incident
+
+2. Form Link
+
+Displays as a clickable text link.
+
+Example:
+View Related Records
+
+3. List Choice
+
+Appears in list context menu or actions.
+
+Example:
+Update Selected Records
+
+4. Context Menu Action
+
+Displays in right-click menus.
+
+Example:
+Export Records
+
+🔹 Components
+Name → UI Action name
+Table → Table where action appears
+Condition → Determines visibility
+Script → Executes action logic
+Action Name → Internal identifier
+🔹 Example
+
+Scenario: Create a button to close an incident.
+
+Condition:
+
+current.state != Closed
+
+Action:
+
+current.state = 'Closed';
+current.update();
+action.setRedirectURL(current);
+🔹 Benefits
+Simplifies record actions
+Reduces manual steps
+Supports automation
+Enhances user interaction
+🔹 Client vs Server UI Actions
+Client UI Action	Server UI Action
+Runs in browser	Runs on server
+Immediate UI updates	Updates database
+Uses client scripts	Uses server scripts
