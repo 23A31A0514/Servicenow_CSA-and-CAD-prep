@@ -1,0 +1,86 @@
+Business Rules (ServiceNow)
+🔹 What are Business Rules?
+
+Business Rules are server-side scripts in ServiceNow that execute when a record is displayed, inserted, updated, deleted, or queried. They automate processes and enforce business logic.
+
+🔹 Features
+Runs on the server side
+Automates record processing
+Validates and updates data
+Executes based on conditions
+Reduces manual work
+🔹 Types of Business Rules
+1. Before
+
+Runs before the record is saved to the database.
+
+Use Cases:
+
+Validate data
+Modify field values before saving
+
+Example:
+Automatically set Priority before record insertion.
+
+2. After
+
+Runs after the record is saved.
+
+Use Cases:
+
+Trigger notifications
+Create related records
+
+Example:
+Send notification after incident creation.
+
+3. Async (Asynchronous)
+
+Runs in the background after database operations.
+
+Use Cases:
+
+Email notifications
+Background processing
+External integrations
+
+Example:
+Generate reports after update.
+
+4. Display
+
+Runs when the form loads and sends data to the client.
+
+Use Cases:
+
+Populate client-side values
+Pass data using g_scratchpad
+
+Example:
+Display additional information on form load.
+
+🔹 Components
+Name → Business Rule name
+Table → Target table
+When → Before / After / Async / Display
+Condition → Defines execution criteria
+Script → Contains business logic
+🔹 Example
+
+Scenario:
+If Priority is High, set Impact = High
+
+if(current.priority == 1){
+current.impact = 1;
+}
+🔹 Benefits
+Automates business processes
+Maintains data integrity
+Reduces repetitive tasks
+Improves efficiency
+🔹 Business Rules vs Client Scripts
+Business Rules	Client Scripts
+Server-side	Client-side
+Runs on database actions	Runs in browser
+Uses current object	Uses g_form
+Handles backend logic	Handles UI interactions
