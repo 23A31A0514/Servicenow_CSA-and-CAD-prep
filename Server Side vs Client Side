@@ -1,0 +1,57 @@
+Server Side vs Client Side (ServiceNow)
+Server Side	Client Side
+Executes on the ServiceNow server	Executes in the user’s browser
+Processes data and database operations	Controls UI and user interactions
+More secure	Faster user response
+Requires server communication	Executes immediately on page
+Can access database directly	Cannot access database directly
+Used for backend logic	Used for frontend behavior
+🔹 Server Side
+What is Server Side?
+
+Server-side execution happens on the ServiceNow server and is mainly used for processing data, business logic, and database operations.
+
+Examples
+Business Rules
+Script Includes
+Scheduled Jobs
+GlideRecord
+Flow Actions
+Features
+Access database records
+Execute backend operations
+Secure processing
+Handles complex logic
+Example Use Case
+
+When an Incident is created → Automatically assign a group and update records.
+
+🔹 Client Side
+What is Client Side?
+
+Client-side execution happens in the user's browser and is mainly used for UI interaction and form behavior.
+
+Examples
+Client Scripts
+UI Policies
+UI Actions (Client)
+Catalog Client Scripts
+Features
+Immediate response
+No page reload required
+Dynamic form updates
+Better user experience
+Example Use Case
+
+When Priority = High → Show additional fields instantly.
+
+🔹 Common Objects
+Server Side
+current
+previous
+GlideRecord
+gs
+Client Side
+g_form
+g_user
+g_scratchpad
