@@ -1,0 +1,70 @@
+Update Sets (ServiceNow)
+🔹 What are Update Sets?
+
+Update Sets in ServiceNow are used to capture, track, and move configuration changes from one instance to another (for example: Development → Test → Production).
+
+They help manage application customization and deployment across environments.
+
+🔹 Features
+Captures configuration changes
+Moves customizations between instances
+Tracks development work
+Supports application deployment
+Maintains change history
+🔹 What Update Sets Capture
+
+✅ Forms and fields changes
+✅ Business Rules
+✅ Client Scripts
+✅ UI Policies
+✅ UI Actions
+✅ Workflows
+✅ Application configuration
+
+🔹 What Update Sets Do NOT Capture
+
+❌ User data / records
+❌ Attachments
+❌ Reports data
+❌ System logs
+❌ Scheduled job execution history
+
+🔹 Components
+1. Current Update Set
+
+Active update set where changes are stored.
+
+2. Default Update Set
+
+System-generated update set available by default.
+
+3. Retrieved Update Set
+
+Imported update set from another instance.
+
+4. Completed Update Set
+
+Finalized update set ready for migration.
+
+🔹 Update Set Process
+
+Create Update Set
+↓
+Make Configuration Changes
+↓
+Mark as Complete
+↓
+Export / Retrieve
+↓
+Preview Update Set
+↓
+Commit to Target Instance
+
+🔹 Benefits
+Easy migration of customizations
+Supports controlled deployment
+Prevents manual recreation
+Maintains consistency across environments
+🔹 Example
+
+Developer creates a Business Rule and UI Policy in Development → Captured in Update Set → Moved to Test → Deployed to Production.
