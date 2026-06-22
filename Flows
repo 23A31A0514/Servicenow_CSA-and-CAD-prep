@@ -1,0 +1,80 @@
+Flows (ServiceNow)
+🔹 What are Flows?
+
+Flows in ServiceNow are automated workflows created using Flow Designer to execute tasks and business processes with low-code/no-code development.
+
+Flows help automate activities across applications without extensive scripting.
+
+🔹 Features
+Low-code / No-code automation
+Trigger-based execution
+Drag-and-drop configuration
+Integration with multiple applications
+Supports approvals and notifications
+🔹 Components of Flow
+1. Trigger
+
+Defines when the flow starts.
+
+Examples:
+
+Record created
+Record updated
+Scheduled execution
+2. Actions
+
+Tasks performed after the trigger executes.
+
+Examples:
+
+Create record
+Send notification
+Update record
+Request approval
+3. Flow Logic
+
+Controls execution path and decision-making.
+
+Examples:
+
+If condition
+Wait for condition
+Loop actions
+4. Data Pills
+
+Used to pass information between triggers and actions.
+
+🔹 Types of Triggers
+Record Trigger
+Application Trigger
+Schedule Trigger
+Service Catalog Trigger
+🔹 Flow Process
+
+Trigger
+↓
+Condition
+↓
+Action Execution
+↓
+Complete Flow
+
+🔹 Benefits
+Reduces manual work
+Improves process efficiency
+Minimizes scripting effort
+Faster automation deployment
+🔹 Example
+
+Scenario:
+When an Incident is created →
+Automatically assign group →
+Send notification →
+Update status.
+
+🔹 Flow vs Workflow
+Flow	Workflow
+Modern automation	Legacy automation
+Low-code design	More scripting
+Uses Flow Designer	Uses Workflow Editor
+Easy integration	Traditional process design
