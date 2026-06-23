@@ -1,0 +1,84 @@
+ServiceNow CAD (Certified Application Developer) 
+1. Application Development Fundamentals
+ServiceNow Application Architecture
+Scoped Applications
+Application Files
+Application Repository
+Studio Overview
+2. Data Modeling & Tables
+Tables and Table Extension
+Fields and Field Types
+Dictionary Entries
+Schema Maps
+Relationships
+3. Forms & Lists
+Configure Form
+Personalize Form
+Configure List
+Personalize List
+Context Menu
+List Calculations
+Filters & Breadcrumbs
+Wildcard Search Conditions
+4. Application User Interface (UI)
+UI Policies
+UI Actions
+UI Builder
+Service Portal Basics
+Workspaces
+Form Designer
+5. Scripting Fundamentals
+Client Scripts
+Business Rules
+Script Includes
+GlideRecord
+GlideSystem (gs)
+Server-side vs Client-side Scripting
+6. Flow Designer & Automation
+Flow Fundamentals
+Create Flows
+Subflows
+Actions
+Data Pills
+Triggers & Conditions
+Flow Logic
+7. Application Logic
+Data Policies
+Access Controls (ACLs)
+UI Policies
+Notifications
+Scheduled Jobs
+8. Application Security
+Users
+Groups
+Roles
+ACL (Access Control Lists)
+Security Rules
+9. Virtual Agent
+Virtual Agent Overview
+Topics
+Topic Blocks
+Conversations
+NLU (Natural Language Understanding)
+10. Update & Deployment
+Update Sets
+Application Deployment
+Source Control Integration
+Repositories
+Publishing Applications
+11. Integration Basics
+REST APIs
+Import Sets
+Data Sources
+IntegrationHub
+12. App Engine Studio
+Create Applications
+Tables & Data Models
+Experiences
+Automations
+Deploy Applications
+13. Testing & Debugging
+Debug Business Rules
+Script Debugger
+Automated Test Framework (ATF)
+Error Logs
